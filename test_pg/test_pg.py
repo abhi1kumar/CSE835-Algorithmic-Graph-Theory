@@ -1,7 +1,7 @@
 
 import os, sys
 sys.path.append(os.getcwd())
-from pg import *
+from pglib.pg import *
 
 g = petersen_graph()
 g.draw_matplotlib(layout= "circular", path= "fig_1.png")
