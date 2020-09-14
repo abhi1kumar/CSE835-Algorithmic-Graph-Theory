@@ -21,6 +21,9 @@ from matplotlib.collections import LineCollection
 import networkx as nx
 import math
 
+import plotting_params as params
+from common_operations import *
+
 class Graph:
     def __init__(self, graph = {}):
         self.g = graph
@@ -1275,17 +1278,18 @@ class Graph:
         pos = dict(zip(self.g, pos))
         return pos
     #
-    def draw_matplotlib(self, layout = 'spring', file = False, scale = 1):
+    def draw_matplotlib(self, layout = 'spring', path = None, scale = 1, vertex_size= 500, vertex_color= params.color1, lw= params.lw, dpi= params.DPI):
         try:
             import matplotlib.cbook as cb
             import matplotlib.pylab as pylab
-            import matplotlib.pyplot as pyplot
+            import matplotlib.pyplot as plt
             from matplotlib.collections import LineCollection
         except ImportError:
             print('matplotlib is required for draw_matplotlib()')
             return
         import numpy
-        pylab.clf()
+        plt.figure(dpi= dpi)
+        plt.clf()
         n = self.order()
         if layout == 'circular':
             pos = self.circular_layout(scale)
@@ -1296,7 +1300,7 @@ class Graph:
         else:
             pos = self.spring_layout(scale)
         # initialize graph
-        cf = pylab.gcf()
+        cf = plt.gcf()
         cf.set_facecolor('w')
         ax = cf.add_axes((0, 0, 1, 1))
         ax.set_axis_off()
@@ -1304,16 +1308,16 @@ class Graph:
         nodelist = self.vertices()
         xy = numpy.asarray([pos[v] for v in nodelist])
         node_collection = ax.scatter(xy[:, 0], xy[:, 1],
-                                        s = 300, # vertex size
-                                        c = 'w', # vertex color
+                                        s = vertex_size, # vertex size
+                                        c = vertex_color, # vertex color
                                         marker='o', # vertex shape
                                         cmap = None,
                                         vmin = None,
                                         vmax = None,
                                         alpha = 1.0,
-                                        linewidths = None)
-        pylab.axes(ax)
-        pylab.sci(node_collection)
+                                        linewidths = lw)
+        plt.axes(ax)
+        plt.sci(node_collection)
         node_collection.set_zorder(2)
         # draw vertex labels
         labels = dict(zip(self.vertices(), self.vertices()))
@@ -1382,9 +1386,10 @@ class Graph:
         miny = numpy.amin(numpy.ravel(edge_pos[:, :, 1]))
         maxy = numpy.amax(numpy.ravel(edge_pos[:, :, 1]))
         # draw graph
-        pylab.draw_if_interactive()
-        if file:
-            pyplot.savefig(file)
+        # pylab.draw_if_interactive()
+        if path is not None:
+            savefig(plt, path)
+        plt.show()
     #
     def draw_tkz_graph(self, layout = 'spring', scale = 10):
         if layout == 'circular':
