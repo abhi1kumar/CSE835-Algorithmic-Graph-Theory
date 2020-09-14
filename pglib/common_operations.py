@@ -1,6 +1,6 @@
 
 
-import plotting_params as params
+import pglib.plotting_params as params
 
 def savefig(plt, path, show_message= True, tight_flag= True, newline= True):
     if show_message:

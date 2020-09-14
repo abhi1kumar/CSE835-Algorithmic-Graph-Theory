@@ -21,8 +21,8 @@ from matplotlib.collections import LineCollection
 import networkx as nx
 import math
 
-import plotting_params as params
-from common_operations import *
+import pglib.plotting_params as params
+from pglib.common_operations import *
 
 class Graph:
     def __init__(self, graph = {}):
