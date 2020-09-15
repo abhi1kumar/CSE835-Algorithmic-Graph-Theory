@@ -1,4 +1,4 @@
-# CSE835_Graph_Theory
+# CSE835 ALgorithmic Graph Theory
 
 Homeworks of [CSE835 Algorithmic Graph Theory](http://www.cse.msu.edu/~cse835/) at Michigan State University taken by [Prof Abdol-Hossein Esfahanian](https://www.cse.msu.edu/~esfahani/).
 
