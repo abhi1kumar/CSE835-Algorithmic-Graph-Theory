@@ -1,6 +1,6 @@
 # CSE835_Graph_Theory
 
-Homeworks of [CSE835 Graph Theory](http://www.cse.msu.edu/~cse835/) at Michigan State University taken by [Prof Abdol-Hossein Esfahanian](https://www.cse.msu.edu/~esfahani/).
+Homeworks of [CSE835 Algorithmic Graph Theory](http://www.cse.msu.edu/~cse835/) at Michigan State University taken by [Prof Abdol-Hossein Esfahanian](https://www.cse.msu.edu/~esfahani/).
 
 ### Requirements
 1. Python 2.6 or higher
