@@ -1278,7 +1278,7 @@ class Graph:
         pos = dict(zip(self.g, pos))
         return pos
     #
-    def draw_matplotlib(self, layout = 'spring', path = None, scale = 1, vertex_size= 500, vertex_color= params.color1, lw= params.lw, dpi= params.DPI):
+    def draw_matplotlib(self, layout = 'spring', path = None, scale = 1, vertex_size= 700, vertex_color= params.color1, lw= params.lw, dpi= params.DPI, fs= params.fs):
         try:
             import matplotlib.cbook as cb
             import matplotlib.pylab as pylab
@@ -1325,7 +1325,7 @@ class Graph:
         for (n, label) in labels.items():
             (x, y) = pos[n]
             t = ax.text(x, y, label,
-                        size = 12,
+                        size = fs,
                         color = 'k', # font color
                         family = 'sans-serif', # font family
                         weight = 'normal', # font weight
@@ -1369,7 +1369,7 @@ class Graph:
                             ec=(1.0, 1.0, 1.0),
                             fc=(1.0, 1.0, 1.0))
                 t = ax.text(x, y, label,
-                            size = 10, # font size
+                            size = fs, # font size
                             color = 'k', # font color
                             family = 'sans-serif', # font family
                             weight = 'normal', # font weight
