@@ -2,7 +2,7 @@
 
 import plotting_params as params
 
-def savefig(plt, path, show_message= True, tight_flag= True, newline= True):
+def savefig(plt, path, show_message= True, tight_flag= True, newline= False):
     if show_message:
         print("=>Saving to {}".format(path))
     if tight_flag:

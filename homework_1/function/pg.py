@@ -1281,7 +1281,7 @@ class Graph:
         return pos
     #
     def draw_matplotlib(self, layout = 'circular', path = None, scale = 1, vertex_size= 2500, vertex_color= params.color1, lw= params.lw, dpi= params.DPI, fs= params.fs, 
-        radius_self_loop = 0.12):
+        radius_self_loop = 0.12, show_figure= False):
         try:
             import matplotlib.cbook as cb
             import matplotlib.pylab as pylab
@@ -1409,7 +1409,8 @@ class Graph:
         # pylab.draw_if_interactive()
         if path is not None:
             savefig(plt, path)
-        plt.show()
+        if show_figure:
+            plt.show()
     #
     def draw_tkz_graph(self, layout = 'spring', scale = 10):
         if layout == 'circular':
