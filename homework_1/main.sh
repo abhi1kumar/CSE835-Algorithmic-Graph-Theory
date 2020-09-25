@@ -14,3 +14,9 @@ python3 function/q8.py
 
 printf "\n"
 python3 function/q9.py
+
+printf "\n"
+python3 function/q12.py
+
+printf "\n"
+python3 function/q18.py
