@@ -928,9 +928,6 @@ class Graph:
                         d1 = W[u, v] + W[w, x]
                         d2 = W[u, w] + W[v, x]
                         d3 = W[u, x] + W[v,w]
-                        if u == 2 and v == 3 and w == 4 and x == 5:
-                            print("u={} v={} w={} x={} D(u,v)={} D(w,x)={} D(u,w)={} D(v,x)={} D(u,x)={} D(v,w)={}".format(u, v, w, x, W[u, v], W[w, x], W[u, w], W[v, x], W[u, x], W[v,w]))
-                            
                         if d1 != d2 and d1 != d3 and d2 != d3:
                             if print_nodes:
                                 print("u={} v={} w={} x={} D(u,v)={} D(w,x)={} D(u,w)={} D(v,x)={} D(u,x)={} D(v,w)={}".format(u, v, w, x, W[u, v], W[w, x], W[u, w], W[v, x], W[u, x], W[v,w]))
