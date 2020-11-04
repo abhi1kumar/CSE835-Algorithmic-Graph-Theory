@@ -2,9 +2,7 @@
 import os, sys
 sys.path.append(os.getcwd())
 
-import numpy as np
 from pg import *
-from matplotlib import pyplot as plt
 
 n= 6
 q= 10
@@ -31,5 +29,6 @@ max_dict = all_graphs[max_index]
 g = Graph(max_dict)
 print(max_dict)
 print("Max num of spanning trees = {} for graph {}".format(max_num_st, max_index))
+
+print(g.edges())
 g.draw_matplotlib(layout= "circular", path= "images/fig_5_3.png")
-#g.draw_matplotlib(layout= "circular", vertex_size= 700, fs= 12, lw= 2, path= "images/fig_5_3.png", radius_self_loop= 0.25)
