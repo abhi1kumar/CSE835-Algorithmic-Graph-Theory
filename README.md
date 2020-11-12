@@ -18,21 +18,12 @@ Other softwares include
 
 ### Lectures
 - [Lecture 1](https://mediaspace.msu.edu/media/t/1_0v85c1kc) 03-09-2020
-- [Lecture 2]()
 - [Lecture 3](https://mediaspace.msu.edu/media/1_cv1vq0be) 10-09-2020
 - [Lecture 4](https://mediaspace.msu.edu/edit/1_eoygzri4)  15-09-2020 
 - [Lecture 5](https://mediaspace.msu.edu/media/1_1giwv4hf)
 - [Lecture 6](https://mediaspace.msu.edu/media/1_rkjmgevu)
 - [Lecture 7](https://mediaspace.msu.edu/edit/1_beh9od9v)
-- [Lecture 8]()
-- [Lecture 9]()
-- [Lecture 10]()
-- [Lecture 11]()
-- [Lecture 12]()
-- [Lecture 13]()
-- [Lecture 14]()
-- [Lecture 15]()
-- [Lecture 16](https://mediaspace.msu.edu/media/1_u9juc6d9) 29-10-2020 Cayley Formula, Prufer Sequence
+- [Lecture 16](https://mediaspace.msu.edu/media/1_u9juc6d9) 29-10-2020 Cayley Formula, Prufer Sequence, HW6
 - [Lecture 17](https://mediaspace.msu.edu/media/1_zs8qqws5)
 - [Lecture 18](https://mediaspace.msu.edu/media/1_5fgb3iym)
 - [Lecture 19]()
