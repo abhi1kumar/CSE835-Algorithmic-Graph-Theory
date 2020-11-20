@@ -10,7 +10,8 @@ Other platforms have not been tested.
 
 ### Softwares
 - [Nauty](http://pallini.di.uniroma1.it/) - ```nauty``` folder contains ``nauty`` and few more custom binaries. Configure and make to get the binaries
-  - [Instructions](http://www.cse.msu.edu/~cse835/cse835cn/CSE835%20nauty%20Instructions.pdf)
+  - [README](https://github.com/abhi1kumar/CSE835_Algorithmic_Graph_Theory/blob/master/nauty/README.md)
+  - [Instructions](https://github.com/abhi1kumar/CSE835_Algorithmic_Graph_Theory/blob/master/nauty/doc/nauty_instructions.pdf)
   - [User Guide](https://pallini.di.uniroma1.it/Guide.html)
   - [Compiled Folder](http://www.cse.msu.edu/~cse835/cse835cn/nautyAHE.rar)
 - PGLib - ```pglib``` folder contains ``pg`` which is a graph manipulation library developed by [Prof Abdol-Hossein Esfahanian](https://www.cse.msu.edu/~esfahani/).
