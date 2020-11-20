@@ -42,7 +42,7 @@ Other platforms have not been tested.
 29-10-2020 |[Lecture 16](https://mediaspace.msu.edu/media/1_u9juc6d9)| HW6 Discussion, Cayley's Formula, Prufer Sequence
 03-11-2020 |[Lecture 17](https://mediaspace.msu.edu/media/1_zs8qqws5)| BFS, DFS
 05-11-2020 |[Lecture 18](https://mediaspace.msu.edu/media/1_5fgb3iym)| Finding Blocks, low point, Sharir's Algorithm
-10-11-2020 |[Lecture 19](https://mediaspace.msu.edu/media/1_5ehxyzxs)| 
+10-11-2020 |[Lecture 19](https://mediaspace.msu.edu/media/1_5ehxyzxs)| HW8 Discussion, Principle of Optimality
 12-11-2020 | |Exam2  
 17-11-2020 |[Lecture 20](https://mediaspace.msu.edu/media/1_1e377ury)| Exam2 Discussion, Djikstra's, BMF, Floyd Algorithm
 19-11-2020 |Lecture 21 | HW9 Discussion, Adjacency Matrix, Distances, Max flow
