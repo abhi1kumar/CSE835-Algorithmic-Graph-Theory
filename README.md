@@ -45,11 +45,11 @@ Other platforms have not been tested.
 10-11-2020 |[Lecture 19](https://mediaspace.msu.edu/media/1_5ehxyzxs)| HW8 discussion, Principle of Optimality
 12-11-2020 | |Exam2  
 17-11-2020 |[Lecture 20](https://mediaspace.msu.edu/media/1_1e377ury)| Exam2 discussion, Djikstra's, BMF, Floyd Algorithm
-19-11-2020 |Lecture 21 | HW9 discussion, Adjacency Matrix, Distances, Max flow
-24-11-2020 |Lecture 22 | 
-26-11-2020 |Lecture 23 | 
-01-12-2020 |Lecture 24 | 
-03-12-2020 |Lecture 25 | 
-08-12-2020 |Lecture 26 | 
-10-12-2020 |Lecture 27 | 
+19-11-2020 |[Lecture 21](https://mediaspace.msu.edu/media/1_x9bytl6t) | HW9 discussion, Adjacency Matrix, Distances, Max flow
+24-11-2020 |Lecture 22 | HW10 discussion
+26-11-2020 | | Thanksgiving holiday 
+01-12-2020 |Lecture 23 | 
+03-12-2020 |Lecture 24 | 
+08-12-2020 |Lecture 25 | 
+10-12-2020 |Lecture 26 | 
 15-12-2020 | |Final Exam 
