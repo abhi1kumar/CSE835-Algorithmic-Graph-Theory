@@ -42,14 +42,14 @@ Other platforms have not been tested.
 29-10-2020 |[Lecture 16](https://mediaspace.msu.edu/media/1_u9juc6d9)| HW6 discussion, Cayley's Formula, Prufer Sequence
 03-11-2020 |[Lecture 17](https://mediaspace.msu.edu/media/1_zs8qqws5)| BFS, DFS
 05-11-2020 |[Lecture 18](https://mediaspace.msu.edu/media/1_5fgb3iym)| Finding Blocks, low point, Sharir's Algorithm
-10-11-2020 |[Lecture 19](https://mediaspace.msu.edu/media/1_5ehxyzxs)| HW8 discussion, Principle of Optimality
+10-11-2020 |[Lecture 19](https://mediaspace.msu.edu/media/1_5ehxyzxs)| HW8 discussion, Chapter7 Shortest Path Problems, Principle of Optimality
 12-11-2020 | |Exam2  
 17-11-2020 |[Lecture 20](https://mediaspace.msu.edu/media/1_1e377ury)| Exam2 discussion, Djikstra's, BMF, Floyd Algorithm
-19-11-2020 |[Lecture 21](https://mediaspace.msu.edu/media/1_x9bytl6t) | HW9 discussion, Adjacency Matrix, Distances, Max flow
-24-11-2020 |[Lecture 22](https://mediaspace.msu.edu/media/1_007dcgx7) | HW10 discussion, Max flow continued and applications
+19-11-2020 |[Lecture 21](https://mediaspace.msu.edu/media/1_x9bytl6t) | HW9 discussion, Adjacency Matrix, Distances, Chapter8 Max flow
+24-11-2020 |[Lecture 22](https://mediaspace.msu.edu/media/1_007dcgx7) | HW10 discussion, Max flow continued, Chapter9 Applications of max flow
 26-11-2020 | | Thanksgiving holiday 
-01-12-2020 |Lecture 23 | Chapter 10 Edge and Vertex Connectivity Problems
-03-12-2020 |Lecture 24 | 
+01-12-2020 |[Lecture 23](https://mediaspace.msu.edu/media/1_7whb44qj) | Chapter10 Edge and Vertex Connectivity Problems
+03-12-2020 |[Lecture 24](https://mediaspace.msu.edu/media/1_0c1dyt4o) | Chapter11 Prob Models of Fault Tolerance, Chapter12 Matching
 08-12-2020 |Lecture 25 | 
 10-12-2020 |Lecture 26 | 
 15-12-2020 | |Final Exam 
