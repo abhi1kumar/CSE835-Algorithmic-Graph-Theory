@@ -50,6 +50,6 @@ Other platforms have not been tested.
 26-11-2020 | | Thanksgiving holiday 
 01-12-2020 |[Lecture 23](https://mediaspace.msu.edu/media/1_7whb44qj) | Chapter10 Edge and Vertex Connectivity Problems
 03-12-2020 |[Lecture 24](https://mediaspace.msu.edu/media/1_0c1dyt4o) | Chapter11 Prob Models of Fault Tolerance, Chapter12 Matching
-08-12-2020 |Lecture 25 | 
-10-12-2020 |Lecture 26 | 
+08-12-2020 |Lecture 25 | Heuristic to TSP, Chapter13 Matching, Chapter14 Ramsey Theory
+10-12-2020 |Lecture 26 | HW11 discussion
 15-12-2020 | |Final Exam 
