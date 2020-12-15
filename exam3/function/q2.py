@@ -38,22 +38,25 @@ display_result(result=g.eulerian(), string="Eulerian")
 print("Diameter= {}".format(g.diameter()))
 
 #Central Vertices
+print("Center  = {}".format(g.center()[1]))
 
 #Blocks
-print(g.dfs(s=0))
 
 #Girth
-print("Girth= {}".format(g.girth()[0]))
+print("Girth   = {}".format(g.girth()[0]))
 
 #Lambda
 
 #Kappa
 
 #Max matching set 
-print("Max matching set= {}".format(g.matching()))
+print("Max matching set   = {}".format(g.matching()))
 
 #Max independent set 
 print("Max independent set= {}".format(g.max_independent_set()))
 
-#Max covering set
-#Max dominating set
+#Min covering set = |V(G)| - Max independent set
+print("Min covering       = {}".format(g.order()-g.max_independent_set()[0]))
+
+#Min dominating set
+#print("Min Dominating set= {}".format(g.order()-g.matching()[0]))
