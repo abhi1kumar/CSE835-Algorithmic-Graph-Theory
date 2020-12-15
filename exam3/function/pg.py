@@ -1057,7 +1057,8 @@ class Graph(object):
     #
     def dpTreeGraph(self, v):
         '''
-        It returns a distance-preserving tree with respect to v
+        It returns a distance-preserving tree with respect to v with all weights 1. Does not take edge weight into account.
+        If you want to preserve edge weights as well, use dpt()
         '''
         T = Graph({})
         T.add_vertices_list(self.vertices())
