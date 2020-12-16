@@ -9,10 +9,10 @@ def display_result(result, string="", new_line= True):
     if new_line:
         print("")
 
-    if biparticity[0] == 1:
+    if result == 1:
         print(string)
     else:
-        print("Not" + string)
+        print("Not " + string)
 
 
 g =  Graph({0:  {1: 1, 8: 1, 14: 1}, 
@@ -30,6 +30,9 @@ g =  Graph({0:  {1: 1, 8: 1, 14: 1},
 biparticity = g.biparticity()
 display_result(result=biparticity[0], string="Bipartite")
 print(biparticity[1], biparticity[2])
+
+# Eulerian
+display_result(result=g.eulerian(), string="Eulerian")
 
 #Diameter
 print("Diameter= {}".format(g.diameter()))
